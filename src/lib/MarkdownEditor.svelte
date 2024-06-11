@@ -19,7 +19,6 @@
 			spellChecker: false,
 			toolbar: ["bold", "italic", "heading", "|", "unordered-list", "ordered-list", "|", "guide"],
 			minHeight: `${window.innerHeight - 71}px`,
-			maxHeight: `${window.innerHeight - 71}px`,
 		});
 
 		editor.value(value);
