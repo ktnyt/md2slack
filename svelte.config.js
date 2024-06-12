@@ -3,12 +3,12 @@ import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		adapter: adapter(),
-		paths: {
-			base: process.env.NODE_ENV === "production" ? "/md2slack" : "",
-		},
-	},
-	preprocess: vitePreprocess(),
+  kit: {
+    adapter: adapter(),
+    paths: {
+      base: process.env.NODE_ENV === "production" ? "/md2slack" : "",
+    },
+  },
+  preprocess: vitePreprocess(),
 };
 export default config;

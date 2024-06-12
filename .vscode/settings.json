@@ -1,10 +1,11 @@
 {
-	"css.customData": [".vscode/css_custom_data.json"],
-	"[svelte]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.codeActionsOnSave": ["source.organizeImports"],
-		"editor.tabSize": 2
-	},
-	"prettier.documentSelectors": ["**/*.svelte"],
-	"typescript.preferences.importModuleSpecifier": "non-relative"
+  "css.customData": [".vscode/css_custom_data.json"],
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": ["source.organizeImports"],
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "prettier.documentSelectors": ["**/*.svelte"],
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }
